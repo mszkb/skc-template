@@ -1,0 +1,16 @@
+version: '2'
+services:
+  dokuwiki:
+    image: 'bitnami/dokuwiki:0'
+    ports:
+      - '80:80'
+      - '443:443'
+    environment:
+      - DOKUWIKI_USERNAME=superkawaii
+      - DOKUWIKI_PASSWORD=superkawaii
+      - DOKUWIKI_WIKI_NAME=skc-template
+    volumes:
+      - './tpl/:/bitnami/dokuwiki/lib/tpl/'
+volumes:
+  dokuwiki_data:
+    driver: local

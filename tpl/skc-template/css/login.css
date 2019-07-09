@@ -1,0 +1,70 @@
+/**
+ * This file provides style changes for the login, forgot password and register page.
+ *
+ * @author msz <zigeina@hotmail.de>
+ */
+
+
+
+/* RESETTING STUFF */
+
+#dw__login fieldset {
+    border: none;
+}
+
+#dw__login fieldset > legend {
+    display: none;
+}
+
+
+/*================================== HIDDING When not logged in - START */
+
+.mode_denied #dokuwiki__pagetools {
+    display: none;
+}
+
+/*================================== HIDDING When not logged in - END */
+
+
+
+
+/*================================== INPUT FIELDS - START */
+
+/* Full width for text and password field */
+#dw__login input[type=text],
+#dw__login input[type=password] {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Input label with some paddings */
+#dw__login .block > span {
+    display: block;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    pointer-events: none;
+}
+
+/* Register and Password forgot smaller and tight */
+#dw__login fieldset {
+    margin-bottom: 30px;
+}
+#dw__login fieldset ~ p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#dw__login label[for="remember__me"] {
+    text-align: center;
+    margin: 0 auto 30px auto;
+    max-width: 150px;
+    padding-left: 25px;
+}
+
+
+/*================================== INPUT FIELDS - END */

@@ -1,0 +1,32 @@
+
+@media (max-width: 1023px) {
+
+    #dw__toc {
+        position: fixed;
+        top: 30px;
+        right: -300px;
+
+        transition: 0.3s ease-in-out;
+    }
+
+    #dw__toc.toc-active {
+        right: 0px;
+    }
+
+    #dw__toc:before {
+        position: absolute;
+        top:0;
+        left: -30px;
+        content: "";
+        width: 30px;
+        height: 30px;
+        background-image: url('./images/noun_121187_cc.svg');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        /*background-color: black;*/
+    }
+
+
+}
+
+

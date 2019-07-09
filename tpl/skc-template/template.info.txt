@@ -1,0 +1,6 @@
+base     skc-template
+author   msz
+email    msz.kb@gmail.com
+date     2017-07-01
+name     SKC Template
+desc     The SKC Template - based on starter
