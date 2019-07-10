@@ -40,7 +40,7 @@ $showSidebar = page_findnearest($conf['sidebar']) && ($ACT=='show');
     $whatINeed = $whatINeed[1];
 
     ?>
-    <div id="dokuwiki__site abc"><div id="dokuwiki__top" class="site abc <?php echo tpl_classes(); echo $whatINeed; ?> <?php
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site abc <?php echo tpl_classes(); echo $whatINeed; ?> <?php
         echo ($showSidebar) ? 'hasSidebar' : ''; ?>">
         <?php html_msgarea() /* occasional error and info messages on top of the page */ ?>
         <?php tpl_includeFile('header.html') ?>

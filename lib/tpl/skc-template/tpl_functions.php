@@ -236,14 +236,14 @@ function skc_tpl_url_exists($url) {
     }
 }
 
-global $EVENT_HANDLER;
-
-$EVENT_HANDLER->register_hook('TPL_TOC_RENDER', 'BEFORE', $this, 'handleToc');
-
-function handleToc(&$event, $param) {
-
-    //var_dump($event);
-
-}
+//global $EVENT_HANDLER;
+//
+//$EVENT_HANDLER->register_hook('TPL_TOC_RENDER', 'BEFORE', $this, 'handleToc');
+//
+//function handleToc(&$event, $param) {
+//
+//    var_dump($event);
+//
+//}
 
 

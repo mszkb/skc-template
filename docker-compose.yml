@@ -10,7 +10,7 @@ services:
       - DOKUWIKI_PASSWORD=superkawaii
       - DOKUWIKI_WIKI_NAME=skc-template
     volumes:
-      - './tpl/:/bitnami/dokuwiki/lib/tpl/'
+      - './lib/:/bitnami/dokuwiki/lib/'
 volumes:
   dokuwiki_data:
     driver: local

@@ -1,5 +1,8 @@
 ./*
-!./tpl/
+!./lib/
 
-tpl/*
-!tpl/skc-template
+lib/*
+!lib/tpl/
+
+lib/tpl/*
+!lib/tpl/skc-template
