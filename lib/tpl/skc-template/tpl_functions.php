@@ -171,7 +171,7 @@ function skc_tpl_render_logo($logo_url) {
     if($whatINeed == "sepm") {
         $logo_url = 'https://wiki.superkawaiicrew.at/_media/sepm.png';
     } else if(!skc_tpl_is_image($logo_url)) {
-        echo 'URL is not an Image';
+        echo "URL is not an Image\n";
         return null;
     }
     echo ("<img src='$logo_url' />");

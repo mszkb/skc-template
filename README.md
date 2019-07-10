@@ -1,12 +1,19 @@
 # Superkawaiicrew Template - Dokuwiki
 
+## Styling
+
+### Logo
+
+To change the logo - go to /lib/tpl/skc-template/conf/default.php  
+Change the URL there.
+
 ## Development
 
 ### only the theme
 
 So you only want to create theme. Fair enough.
 The docker-compose.yml file is already configured so you can start
-developing on the skc theme.
+developing on the skc theme. It mounts the /lib/ folder.
 
 ```bash
 $ docker-compose up -d
